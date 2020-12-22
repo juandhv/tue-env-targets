@@ -1,4 +1,6 @@
 - type: ros
   source:
-    type: system
-    name: moveit-simple-controller-manager
+      type: git
+      url: git@github.com:KavrakiLab/moveit.git
+      version: melodic-devel-ompl-source
+      sub-dir: moveit_plugins/moveit_simple_controller_manager

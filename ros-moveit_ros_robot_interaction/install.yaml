@@ -3,4 +3,4 @@
       type: git
       url: git@github.com:KavrakiLab/moveit.git
       version: melodic-devel-ompl-source
-      sub-dir: moveit_ros/planning_interface
+      sub-dir: moveit_ros/robot_interaction

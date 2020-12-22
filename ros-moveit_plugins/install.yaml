@@ -1,4 +1,11 @@
-- type: ros
-  source:
-    type: system
-    name: moveit-plugins
+- type: target
+  name: ros-moveit_controller_manager_example
+  
+- type: target
+  name: ros-moveit_fake_controller_manager
+
+- type: target
+  name: ros-moveit_ros_control_interface
+
+- type: target
+  name: ros-moveit_simple_controller_manager
